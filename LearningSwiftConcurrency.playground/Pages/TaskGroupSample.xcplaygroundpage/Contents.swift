@@ -1,6 +1,5 @@
 import Foundation
 
-// Main function
 func performTasks() async -> Int {
     await withTaskGroup(of: Int.self) { group in
         group.addTask {
